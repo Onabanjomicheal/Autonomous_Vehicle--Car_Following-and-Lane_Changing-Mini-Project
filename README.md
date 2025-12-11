@@ -6,7 +6,7 @@ This repository contains the necessary configuration files for simulating an Aut
 ## 📁 Repository Contents
 | File Name | Description |
 | :--- | :--- |
-| `VehicleType.net.xml` | Defines the road network, junctions, and traffic lights for the simulation. |
+| `VehicleType.net.xml` | Defines the road network |
 | `VehicleType.netecfg` | Configuration file for NETEDIT, used to edit the road network definition. |
 | `VehicleType.rou.xml` | Defines the vehicle types, routes, and traffic demand (how many vehicles enter the network). |
 | `VehicleType.sumocfg` | The main SUMO configuration file that ties together the network and route files to run the simulation. |
