@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-29 03:03:31 by Eclipse SUMO netedit Version 1.23.1
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\user\Desktop\Transportation\Mobility Demand And SUMO\CarFollowing\VehicleType.sumocfg"/>
+        <route-files value="C:\Users\user\Desktop\Transportation\Mobility Demand And SUMO\CarFollowing\VehicleType.rou.xml"/>
+        <sumo-net-file value="C:\Users\user\Desktop\Transportation\Mobility Demand And SUMO\CarFollowing\VehicleType.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\user\Desktop\Transportation\Mobility Demand And SUMO\CarFollowing\VehicleType.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+    <netedit>
+        <ignore.routeelements value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" avoidOverlap="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-100.56,3.07,101.30,5.87" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="-E0" from="J1" to="J0" priority="-1">
+        <lane id="-E0_0" index="0" speed="13.89" length="201.88" shape="101.46,14.27 -100.40,17.07"/>
+        <lane id="-E0_1" index="1" speed="13.89" length="201.88" shape="101.41,11.07 -100.45,13.87"/>
+        <lane id="-E0_2" index="2" speed="13.89" length="201.88" shape="101.37,7.87 -100.49,10.67"/>
+        <lane id="-E0_3" index="3" speed="13.89" length="201.88" shape="101.32,4.67 -100.54,7.47"/>
+    </edge>
+    <edge id="E0" from="J0" to="J1" priority="-1">
+        <lane id="E0_0" index="0" allow="bicycle" speed="13.89" length="201.88" width="1.00" shape="-100.79,-10.63 101.07,-13.43"/>
+        <lane id="E0_1" index="1" allow="taxi scooter" speed="13.89" length="201.88" shape="-100.76,-8.53 101.10,-11.33"/>
+        <lane id="E0_2" index="2" allow="vip evehicle" speed="13.89" length="201.88" shape="-100.72,-5.33 101.14,-8.13"/>
+        <lane id="E0_3" index="3" allow="vip evehicle" speed="13.89" length="201.88" shape="-100.67,-2.13 101.19,-4.93"/>
+        <lane id="E0_4" index="4" allow="vip evehicle" speed="13.89" length="201.88" shape="-100.63,1.07 101.23,-1.73"/>
+        <lane id="E0_5" index="5" allow="emergency hov" speed="13.89" length="201.88" shape="-100.58,4.27 101.28,1.47"/>
+    </edge>
+
+    <junction id="J0" type="dead_end" x="-100.56" y="5.87" incLanes="-E0_0 -E0_1 -E0_2 -E0_3" intLanes="" shape="-100.56,5.87 -100.38,18.67 -100.56,5.87"/>
+    <junction id="J1" type="dead_end" x="101.30" y="3.07" incLanes="E0_0 E0_1 E0_2 E0_3 E0_4 E0_5" intLanes="" shape="101.30,3.07 101.06,-13.93 101.30,3.07"/>
+
+</net>
