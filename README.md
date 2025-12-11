@@ -14,7 +14,7 @@ This repository contains the necessary configuration files for simulating an Aut
 ## 🚀 How to Run the Simulation
 To run this project, you must have the **SUMO** software package installed.
 
-1. **Install SUMO:** (Link to SUMO download page, if desired).
+1. **Install SUMO:**.
 2. **Clone the Repository:**
    ```bash
    git clone [https://github.com/Onabanjomicheal/Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Proj](https://github.com/Onabanjomicheal/Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Proj)
