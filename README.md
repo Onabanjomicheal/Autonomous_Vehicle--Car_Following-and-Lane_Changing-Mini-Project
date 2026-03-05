@@ -1,82 +1,20 @@
-# Autonomous Vehicle — Car Following & Lane Changing
+# Autonomous Vehicle Simulation: Car Following and Lane Changing
 
-> 🤖 AV car-following and lane-changing behaviour modelling mini-project
+## 🛣️ Project Overview
+This repository contains the necessary configuration files for simulating an Autonomous Vehicle (AV) environment within **SUMO (Simulation of Urban MObility)**. The focus of this mini-project is to model and analyze the interactions related to **Car Following** and **Lane Changing** behaviors of autonomous and conventional vehicles.
 
-![Language](https://img.shields.io/badge/Language-Python-blue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/Onabanjomicheal/Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Project?style=flat-square&color=yellow)
-![Forks](https://img.shields.io/github/forks/Onabanjomicheal/Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Project?style=flat-square&color=green)
-![Last Commit](https://img.shields.io/github/last-commit/Onabanjomicheal/Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Project?style=flat-square)
+## 📁 Repository Contents
+| File Name | Description |
+| :--- | :--- |
+| `VehicleType.net.xml` | Defines the road network |
+| `VehicleType.netecfg` | Configuration file for NETEDIT, used to edit the road network definition. |
+| `VehicleType.rou.xml` | Defines the vehicle types, routes, and traffic demand (how many vehicles enter the network). |
+| `VehicleType.sumocfg` | The main SUMO configuration file that ties together the network and route files to run the simulation. |
 
----
+## 🚀 How to Run the Simulation
+To run this project, you must have the **SUMO** software package installed.
 
-## 📌 Overview
-
-A mini-project modelling Autonomous Vehicle longitudinal (car-following) and lateral (lane-changing) behaviour using classical and ML-based control models. Explores how AV decision-making impacts traffic flow and safety.
-
-**Tech Stack:** `Python` `Autonomous Vehicles` `Car Following` `Lane Changing` `Traffic Modelling`
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-```bash
-pip install -r requirements.txt
-```
-
-> Requires **Python 3.8+**
-
-### Installation
-
-```bash
-git clone https://github.com/Onabanjomicheal/Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Project.git
-cd Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Project
-pip install -r requirements.txt
-```
-
-### Run
-
-```bash
-python main.py
-```
-
----
-
-## 🗂️ Project Structure
-
-```
-Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Project/
-├── README.md
-├── requirements.txt
-├── main.py
-├── data/              # Input datasets
-├── notebooks/         # Jupyter notebooks
-└── results/           # Outputs, plots, metrics
-```
-
----
-
-## 📊 Results
-
-After running the project, outputs and visualisations are saved to the `results/` directory.
-
----
-
-## 📬 Author
-
-**Onabanjo Michael Oluwatobi**
-- 📧 [Onabanjomicheal01@gmail.com](mailto:Onabanjomicheal01@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/micheal-onabanjo)
-- 🐦 [Twitter / X](https://twitter.com/onabanjomico)
-- 🐙 [GitHub](https://github.com/Onabanjomicheal)
-
----
-
-## ⭐ Support
-
-If this project helped you, consider giving it a **star** ⭐
-
----
-
-*Part of a portfolio focused on intelligent transportation systems, machine learning, and data science.*
+1. **Install SUMO:**.
+2. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/Onabanjomicheal/Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Proj](https://github.com/Onabanjomicheal/Autonomous_Vehicle--Car_Following-and-Lane_Changing-Mini-Proj)
